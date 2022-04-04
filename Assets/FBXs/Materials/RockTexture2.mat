@@ -21,8 +21,8 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: RockTexture2
-  m_Shader: {fileID: 4800000, guid: 6e4ae4064600d784cac1e41a9e6f2e59, type: 3}
-  m_ShaderKeywords: _DISABLE_SSR_TRANSPARENT _NORMALMAP _NORMALMAP_TANGENT_SPACE
+  m_Shader: {fileID: -6465566751694194690, guid: 500cc2e1f3f258e40b29e5ba96b599ce, type: 3}
+  m_ShaderKeywords: _DISABLE_SSR_TRANSPARENT
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -139,7 +139,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - Vector1_37c9e7df5f2f4c3d9c03597364078129: -0.69
+    - Vector1_37c9e7df5f2f4c3d9c03597364078129: 4
     - Vector1_aad23e800259409ba7c999c46a2c7b44: 0.55
     - _AORemapMax: 1
     - _AORemapMin: 0
@@ -265,6 +265,7 @@ Material:
     - _ZTestTransparent: 4
     - _ZWrite: 1
     m_Colors:
+    - Vector2_741d8ab887e041d8b0ca37c1af3c860f: {r: 4, g: 4, b: 4, a: 4}
     - Vector3_50d89132bd034a0ea97ad614781e3541: {r: 0, g: 1, b: 0, a: 0}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _BaseColorMap_MipInfo: {r: 0, g: 0, b: 0, a: 0}
