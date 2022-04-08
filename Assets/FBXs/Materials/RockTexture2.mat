@@ -265,8 +265,8 @@ Material:
     - _ZTestTransparent: 4
     - _ZWrite: 1
     m_Colors:
-    - Vector2_741d8ab887e041d8b0ca37c1af3c860f: {r: 4, g: 4, b: 4, a: 4}
-    - Vector3_50d89132bd034a0ea97ad614781e3541: {r: 0, g: 1, b: 0, a: 0}
+    - Vector2_741d8ab887e041d8b0ca37c1af3c860f: {r: 6, g: 6, b: 0, a: 0}
+    - Vector3_50d89132bd034a0ea97ad614781e3541: {r: 0.05, g: 2, b: 0, a: 0}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _BaseColorMap_MipInfo: {r: 0, g: 0, b: 0, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}

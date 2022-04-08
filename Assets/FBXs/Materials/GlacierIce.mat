@@ -97,7 +97,7 @@ Material:
     - _BlendMode: 0
     - _BumpScale: 1
     - _COAT_IOR: 1.5
-    - _COAT_ROUGHNESS: 0.38
+    - _COAT_ROUGHNESS: 0.44
     - _COAT_THICKNESS: 5
     - _COAT_WEIGHT: 0
     - _CoatMask: 0
@@ -166,10 +166,10 @@ Material:
     - _RenderQueueType: 1
     - _RequireSplitLighting: 0
     - _SPECULAR_ANISOTROPY: 0
-    - _SPECULAR_IOR: 1.5
+    - _SPECULAR_IOR: 4.11
     - _SPECULAR_ROTATION: 0
-    - _SPECULAR_ROUGHNESS: 1
-    - _SPECULAR_WEIGHT: 1
+    - _SPECULAR_ROUGHNESS: 0.64
+    - _SPECULAR_WEIGHT: 0.55
     - _Smoothness: 0.5
     - _SmoothnessRemapMax: 1
     - _SmoothnessRemapMin: 0

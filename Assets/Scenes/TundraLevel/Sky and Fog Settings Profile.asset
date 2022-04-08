@@ -367,7 +367,7 @@ MonoBehaviour:
     m_Value: 0
     min: 0
   includeSunInBaking:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 0
   m_SkyVersion: 1
   m_ObsoleteEarthPreset:
