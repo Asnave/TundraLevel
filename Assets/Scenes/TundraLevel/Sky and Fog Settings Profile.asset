@@ -25,16 +25,16 @@ MonoBehaviour:
     m_Value: 1
   fixedExposure:
     m_OverrideState: 1
-    m_Value: 15
+    m_Value: 14.389683
   compensation:
     m_OverrideState: 0
     m_Value: 0
   limitMin:
-    m_OverrideState: 0
-    m_Value: -1
+    m_OverrideState: 1
+    m_Value: 0.53344643
   limitMax:
-    m_OverrideState: 0
-    m_Value: 14
+    m_OverrideState: 1
+    m_Value: 13.256235
   curveMap:
     m_OverrideState: 0
     m_Value:
@@ -191,7 +191,7 @@ MonoBehaviour:
   m_AdvancedMode: 0
   rotation:
     m_OverrideState: 1
-    m_Value: 39
+    m_Value: 347
     min: 0
     max: 360
   skyIntensityMode:
@@ -374,7 +374,7 @@ MonoBehaviour:
     m_OverrideState: 0
     m_Value: 1
   type:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 1
   sphericalMode:
     m_OverrideState: 0
@@ -420,8 +420,8 @@ MonoBehaviour:
     min: 0
     max: 1
   aerosolTint:
-    m_OverrideState: 0
-    m_Value: {r: 0.9, g: 0.9, b: 0.9, a: 1}
+    m_OverrideState: 1
+    m_Value: {r: 1, g: 1, b: 1, a: 1}
     hdr: 0
     showAlpha: 0
     showEyeDropper: 1
@@ -440,8 +440,8 @@ MonoBehaviour:
     min: 1
     max: 10
   groundTint:
-    m_OverrideState: 0
-    m_Value: {r: 0.4, g: 0.25, b: 0.15, a: 1}
+    m_OverrideState: 1
+    m_Value: {r: 0.12148452, g: 0.2567237, b: 0.3962264, a: 1}
     hdr: 0
     showAlpha: 0
     showEyeDropper: 0
@@ -484,8 +484,8 @@ MonoBehaviour:
     min: 0
     max: 1
   horizonTint:
-    m_OverrideState: 0
-    m_Value: {r: 1, g: 1, b: 1, a: 1}
+    m_OverrideState: 1
+    m_Value: {r: 0.4475792, g: 0.820769, b: 0.8867924, a: 1}
     hdr: 0
     showAlpha: 0
     showEyeDropper: 0
