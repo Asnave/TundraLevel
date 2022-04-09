@@ -22,15 +22,18 @@ public class AIWander : MonoBehaviour
     public AIStates aiState;
 
     private float timeDrain;
-    [SerializeField]
+
     private int pointNumber;
 
     private NavMeshAgent AI;
+
+    private Animator anim;
 
 
     // Start is called before the first frame update
     void Start()
     {
+        anim = GetComponentInChildren<Animator>();
         timeDrain = 100f;
         AI = gameObject.GetComponent<NavMeshAgent>();
     }
@@ -39,6 +42,7 @@ public class AIWander : MonoBehaviour
     void Update()
     {
         AIStateDecider();
+        anim.SetFloat("Velocity", AI.velocity.magnitude);
     }
     private void FixedUpdate()
     {
@@ -67,16 +71,18 @@ public class AIWander : MonoBehaviour
             if (currentTime > 0)
             {
                 currentTime -= timeDrain * Time.deltaTime;
+                aiSpeed = 0f;
             }
             else if (currentTime <= 0)
             {
-                pointNumber = Random.Range(0, pointsToWander.Length);
+                pointNumber = Random.Range(0, pointsToWander.Length + 1);
                 currentWanderPoint = pointsToWander[pointNumber];
                 aiState = AIStates.Wandering;
             }
         }
         if (aiState == AIStates.Wandering)
         {
+            aiSpeed = 5;
             AI.destination = currentWanderPoint.position;
         }
     }
